@@ -1,0 +1,75 @@
+Noolzy/
+│
+├── 
+├── 
+├── 
+├── README.md
+├── favicon.ico
+│
+├── assets/
+│   │
+│   ├── images/
+│   │   ├── hero/
+│   │   │   ├── hero-banner.jpg
+│   │   │   └── hero-bg.jpg
+│   │   │
+│   │   ├── products/
+│   │   │   ├── thread-bangles-1.jpg
+│   │   │   ├── thread-bangles-2.jpg
+│   │   │   ├── silk-bangles.jpg
+│   │   │   ├── bridal-bangles.jpg
+│   │   │   ├── embroidered-clips.jpg
+│   │   │   ├── bow-clips.jpg
+│   │   │   ├── hair-bands.jpg
+│   │   │   ├── scrunchies.jpg
+│   │   │   └── gift-set.jpg
+│   │   │
+│   │   ├── gallery/
+│   │   │   ├── gallery1.jpg
+│   │   │   ├── gallery2.jpg
+│   │   │   ├── gallery3.jpg
+│   │   │   ├── gallery4.jpg
+│   │   │   ├── gallery5.jpg
+│   │   │   └── gallery6.jpg
+│   │   │
+│   │   ├── testimonials/
+│   │   │   ├── customer1.jpg
+│   │   │   ├── customer2.jpg
+│   │   │   └── customer3.jpg
+│   │   │
+│   │   ├── icons/
+│   │   │   ├── logo.png
+│   │   │   ├── favicon.png
+│   │   │   ├── whatsapp.png
+│   │   │   ├── instagram.png
+│   │   │   ├── handmade.png
+│   │   │   ├── quality.png
+│   │   │   ├── custom.png
+│   │   │   └── delivery.png
+│   │   │
+│   │   └── background/
+│   │       ├── pattern.png
+│   │       └── texture.jpg
+│   │
+│   └── fonts/
+│
+├── css/
+│   ├── variables.css
+│   ├── animations.css
+│   ├── responsive.css
+│   └── components.css
+│
+├── js/
+│   ├── navbar.js
+│   ├── products.js
+│   ├── gallery.js
+│   ├── faq.js
+│   ├── testimonials.js
+│   ├── search.js
+│   ├── animations.js
+│   ├── whatsapp.js
+│   └── main.js
+│
+└── data/
+    ├── products.js
+    └── testimonials.js
