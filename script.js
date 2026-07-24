@@ -55,7 +55,11 @@ const waLink = (msg) =>
 /* ---------- LOADER ---------- */
 window.addEventListener("load", () => {
   const loader = document.getElementById("loader");
-  setTimeout(() => loader.classList.add("hide"), 500);
+  if (loader) {
+    setTimeout(() => {
+      loader.classList.add("hide");
+    }, 500);
+  }
 });
 
 /* ---------- YEAR ---------- */
