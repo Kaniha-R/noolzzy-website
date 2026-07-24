@@ -55,13 +55,13 @@ const waLink = (msg) =>
 /* ---------- LOADER ---------- */
 window.addEventListener("load", () => {
   const loader = document.getElementById("loader");
-
   if (loader) {
     setTimeout(() => {
       loader.classList.add("hide");
     }, 500);
   }
 });
+
 /* ---------- YEAR ---------- */
 document.getElementById("year").textContent = new Date().getFullYear();
 
