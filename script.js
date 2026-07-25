@@ -76,25 +76,29 @@ const DOM = {
 // DATA SETS
 // ==========================================
 const products = [
-  { name: "Silk Thread Bangles", category: "bangles", price: "₹499", tag: "Bestseller", desc: "Vibrant silk-wound bangles for everyday elegance.", img: "https://images.unsplash.com/photo-1611591437281-460bfbe1220a?w=600" },
-  { name: "Bridal Bangles", category: "bangles", price: "₹1,499", tag: "Premium", desc: "Statement bridal set with gold detailing.", img: "https://images.unsplash.com/photo-1602173574767-37ac01994b2a?w=600" },
-  { name: "Kids Bangles", category: "bangles", price: "₹299", desc: "Playful, tiny bangles designed for little wrists.", img: "https://images.unsplash.com/photo-1573408301185-9146fe634ad0?w=600" },
-  { name: "Embroidered Clips", category: "clips", price: "₹349", tag: "New", desc: "Hand-embroidered clips in floral motifs.", img: "https://images.unsplash.com/photo-1596944924591-a99b8e83f2b3?w=600" },
-  { name: "Bow Clips", category: "clips", price: "₹249", desc: "Sweet fabric bows for a chic touch.", img: "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?w=600" },
-  { name: "Hair Bands", category: "hair", price: "₹199", desc: "Soft-stretch bands in curated shades.", img: "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=600" },
-  { name: "Scrunchies", category: "hair", price: "₹149", tag: "Set of 3", desc: "Silky scrunchies that hug your hair gently.", img: "https://images.unsplash.com/photo-1591348278863-a8fb3887e2aa?w=600" },
-  { name: "Customized Gift Sets", category: "gifts", price: "₹1,299", tag: "Custom", desc: "Curated gifting box, personalized just for you.", img: "https://images.unsplash.com/photo-1549465220-1a8b9238cd48?w=600" },
-  { name: "Festive Bangle Stack", category: "bangles", price: "₹899", desc: "Layered bangle set for festive celebrations.", img: "https://images.unsplash.com/photo-1535632787350-4e68ef0ac584?w=600" }
+  { name: "Heritage Thread Bangles", category: "bangles", price: "₹399", tag: "Bestseller", desc: "Handcrafted turquoise blue silk thread bangles with intricate gold and white stone detailing for a timeless traditional look.", img: "assets/products/product1.jpg" },
+  { name: "Emerald Bloom Bangle Set", category: "bangles", price: "₹399", tag: "Premium", desc: "SHandcrafted emerald green silk thread bangles with elegant gold embellishments, perfect for festive and traditional wear.", img: "assets/products/product2.jpg" },
+  { name: "Emerald Butterfly Bangle Set", category: "bangles", price: "₹399", desc: "A handcrafted emerald green silk thread bangle featuring a stunning butterfly centerpiece with premium stone embellishments. Designed to make a graceful statement for festive wear and special occasions.", img: "assets/products/product3.jpg" },
+  { name: "Golden Wings Cuff", category: "bracelet", price: "₹399", tag: "New", desc: "A handcrafted antique gold cuff bracelet with a graceful wing-inspired design, perfect for parties, festive occasions, and statement styling.", img: "assets/products/product4.jpg" },
+  { name: "Bow Clips", category: "hair", price: "₹249", desc: "Sweet fabric bows for a chic touch.", img: "assets/products/product5.jpg" },
+  { name: "Blush Silk Bangle Set", category: "bangles", price: " ₹399", desc: "Handcrafted blush pink and ivory silk thread bangles with elegant stone detailing, ideal for festive celebrations and special occasions.", img: "assets/products/product6.jpg" },
+  { name: "Golden Grace Bangle Set", category: "bangles", price: "₹399", tag: "Set of 3", desc: "Elegant handcrafted golden yellow silk thread bangles with premium embellishments for weddings and festive occasions.", img: "assets/products/product7.jpg" },
+  { name: "Azure Thread BanglesAzure Thread Bangles", category: "bangles", price: "₹399", tag: "Custom", desc: "Beautiful handcrafted royal blue silk thread bangles with silver stone embellishments, adding elegance to any festive look.", img: "assets/products/product8.jpg" },
+  { name: "Golden Grace Bangle Set", category: "bangles", price: "₹399", desc: "Handcrafted mustard yellow silk thread bangles with purple thread accents and elegant stone embellishments. A vibrant choice for festive celebrations and traditional occasions.", img: "assets/products/product9.jpg" },
+  { name: "Bloom Stitch Hair Clips (Beige Floral)", category: "hair", price: "₹89", desc: "Handcrafted floral snap clips made with beige floral fabric. Comfortable, stylish, and ideal for daily wear.", img: "assets/products/product10.jpg" }
 ];
 
 const galleryImages = [
-  "https://images.unsplash.com/photo-1611591437281-460bfbe1220a?w=800",
-  "https://images.unsplash.com/photo-1596944924591-a99b8e83f2b3?w=800",
-  "https://images.unsplash.com/photo-1591348278863-a8fb3887e2aa?w=800",
-  "https://images.unsplash.com/photo-1602173574767-37ac01994b2a?w=800",
-  "https://images.unsplash.com/photo-1573408301185-9146fe634ad0?w=800",
-  "https://images.unsplash.com/photo-1549465220-1a8b9238cd48?w=800",
-  "https://images.unsplash.com/photo-1535632787350-4e68ef0ac584?w=800"
+  "assets/products/product1.jpg",
+  "assets/products/product4.jpg",
+  "assets/products/product3.jpg",
+  "assets/products/product2.jpg",
+  "assets/products/product5.jpg",
+  "assets/products/product8.jpg",
+  "assets/products/product7.jpg",
+  "assets/products/product9.jpg",
+  "assets/products/product10.jpg",
+  "assets/products/product6.jpg"
 ];
 
 const testimonials = [
@@ -105,12 +109,12 @@ const testimonials = [
 ];
 
 const instaImgs = [
-  "https://images.unsplash.com/photo-1611591437281-460bfbe1220a?w=400",
-  "https://images.unsplash.com/photo-1596944924591-a99b8e83f2b3?w=400",
-  "https://images.unsplash.com/photo-1591348278863-a8fb3887e2aa?w=400",
-  "https://images.unsplash.com/photo-1602173574767-37ac01994b2a?w=400",
-  "https://images.unsplash.com/photo-1573408301185-9146fe634ad0?w=400",
-  "https://images.unsplash.com/photo-1549465220-1a8b9238cd48?w=400"
+  "assets/products/product1.jpg",
+  "assets/products/product10.jpg",
+  "assets/products/product3.jpg",
+  "assets/products/product4.jpg",
+  "assets/products/product5.jpg",
+  "assets/products/product6.jpg"
 ];
 
 // ==========================================
